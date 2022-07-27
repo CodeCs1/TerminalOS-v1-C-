@@ -2,9 +2,9 @@
 The OS made in Cosmos C#
 <br><hr>
 WARNING: this OS it just go to the alpha version (game is not done, GUI need to be fix.)
-<p align="right">
+<!--p align="right">
   <img src="your_relative_path_here" width="350" title="hover text">
-</p>
+</p-->
 <br><hr>
 <p>In order to build this OS, you will need: </p>
 <br>
