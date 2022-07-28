@@ -1,7 +1,7 @@
 # TerminalOSv1
 The OS made in Cosmos C#
 <br><hr>
-WARNING: this OS it just go to the alpha version (game is not done, GUI need to be fix.)
+WARNING: this OS it just the alpha version (game is not done, GUI need to be fix.)
 <!--p align="right">
   <img src="your_relative_path_here" width="350" title="hover text">
 </p-->
