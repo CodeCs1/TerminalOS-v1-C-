@@ -14,3 +14,6 @@ Visual Studio 2019
 Cosmos C# latest version (2022)
 <br>
 <br>VMWare Player or Workstation any version (>12)
+
+<br><hr>
+Plus: You need to rename the folder: 'Yêu Cầu' to Command
