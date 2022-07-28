@@ -17,3 +17,4 @@ Cosmos C# latest version (2022)
 
 <br><hr>
 Plus: You need to rename the folder: 'Yêu Cầu' to Command
+Plus2: Move 2 folders 'Games' and 'Graphics' to folder 'TerminalOSv1'
