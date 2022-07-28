@@ -1,20 +1,24 @@
-# TerminalOSv1
+# TerminalOS version 1 (remake)
 The OS made in Cosmos C#
 <br><hr>
 WARNING: this OS it just the alpha version (game is not done, GUI need to be fix.)
 <!--p align="right">
   <img src="your_relative_path_here" width="350" title="hover text">
 </p-->
-<br><hr>
+<hr>
 <p>In order to build this OS, you will need: </p>
-<br>
 Visual Studio 2019
-<br>
 <br>
 Cosmos C# latest version (2022)
 <br>
-<br>VMWare Player or Workstation any version (>12)
-
-<br><hr>
+VMWare Player or Workstation any version (>12)
+<hr>
 Plus: You need to rename the folder: 'Yêu Cầu' to Command
+<br>
 Plus2: Move 2 folders 'Games' and 'Graphics' to folder 'TerminalOSv1'
+<br><hr>
+-> Goal: 
+<br>
+   -> Make the first game in terminalOS
+   <br>
+   -> Fix GUI
