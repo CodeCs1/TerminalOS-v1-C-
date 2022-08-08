@@ -38,6 +38,32 @@ namespace TerminalOSv1.Command.CommandList
                 {
                     str += args + " ";
                 }
+                if (str.Contains("$"))
+                {
+                    String St = str;
+
+                    int pFrom = St.IndexOf("$") + "$".Length;
+                    int pTo = St.LastIndexOf(" ");
+
+                    String result = St.Substring(pFrom, pTo - pFrom);
+
+                    if (result == "DuCa") //=)
+                    {
+                        Console.WriteLine("Variable: " + result);
+                        Console.WriteLine(@"
+  (\___/)         Welcome, this is rabit =)
+  (='.'=)         and yes, if you are in Vietnamese, you already know about 
+ ('')_('')        'Hibiki Duca' right ?
+                                                        - Variable $DuCa -");
+                        return "";
+                    }
+                    else
+                    {
+                        response = "Variable: " + result;
+                    }
+                    return "";
+                } 
+
                 response = string.Format("{0}", str);
             } else
             {
