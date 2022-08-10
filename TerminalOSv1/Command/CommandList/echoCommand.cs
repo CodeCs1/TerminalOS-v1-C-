@@ -46,16 +46,25 @@ namespace TerminalOSv1.Command.CommandList
                     int pTo = St.LastIndexOf(" ");
 
                     String result = St.Substring(pFrom, pTo - pFrom);
+                    DateTime dateTime = new DateTime(DateTime.Now.Year, 8, 8);
+                    DateTime CurrentDateTime = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
 
+                    int IsEastereggIsDetected = DateTime.Compare(dateTime, CurrentDateTime);
                     if (result == "DuCa") //=)
                     {
-                        Console.WriteLine("Variable: " + result);
-                        Console.WriteLine(@"
+                        if (IsEastereggIsDetected != -1)
+                        { // easteregg = True #Cuz -1 is not equal to current time =)
+                            Console.WriteLine("Variable: " + result);
+                            Console.WriteLine(@"
   (\___/)         Welcome, this is rabit =)
   (='.'=)         and yes, if you are in Vietnamese, you already know about 
  ('')_('')        'Hibiki Duca' right ?
                                                         - Variable $DuCa -");
-                        return "";
+                            return "";
+                        } else
+                        {
+                            Console.WriteLine("WARNING: You need to wait to 8/8 to this easter egg work =)");
+                        }
                     }
                     else
                     {
