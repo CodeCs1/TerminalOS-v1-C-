@@ -13,12 +13,7 @@ Cosmos C# latest version (2022)
 <br>
 VMWare Player or Workstation any version (>12)
 <hr>
-Plus: You need to rename the folder: 'Yêu Cầu' to Command
-<br>
-Plus2: Move 2 folders 'Games' and 'Graphics' to folder 'TerminalOSv1'
-<br><hr>
--> Goal: 
-<br>
-   -> Make the first game in terminalOS
-   <br>
-   -> Fix GUI
+
+- Goal: 
+   - [ ] Make the first game in terminalOS
+   - [ ] Fix GUI
