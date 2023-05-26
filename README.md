@@ -1,4 +1,8 @@
 # TerminalOS version 1 (remake)
+
+WARNING: In 31/5/2023, TerminalOS isn't going to support anymore and this github repository will put into archive.
+You can use alternative one, such as: Hibiki Duwuca Linux System.
+
 The OS made in Cosmos C#
 <br><hr>
 WARNING: this OS it just the alpha version (game is not done, GUI need to be fix.)
